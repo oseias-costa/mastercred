@@ -44,9 +44,16 @@ export const CallContainer = styled.section`
     @media(max-width: 740px){
         text-align: center;
         padding-bottom: 83px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 42px;
 
         a {
             font-size: 48px;
+        }
+
+        p {
+            padding-top: 20px;
         }
     }
 `
