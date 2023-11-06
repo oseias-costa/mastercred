@@ -5,6 +5,7 @@ import Headline from './components/headline/Headline'
 import Services from './components/services/Services'
 import { ShapeTwo } from './components/headline/headeline.styles';
 import Shape from '@/public/headline/shape-two.png'
+import Footer from './components/footer/Footer';
 
 export default function Home() {
   const [size, setSize ] = useState<any>(0)
@@ -20,6 +21,7 @@ export default function Home() {
       <Headline />
       <Services />
       <Call />
+      <Footer />
       <ShapeTwo alt='MasterCred - Empréstimos e Consórcios' src={Shape} size={size !== 0 ? size.clientHeight : 2000} />
     </main>
   )

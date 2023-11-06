@@ -6,7 +6,7 @@ export default function Call(){
         <CallContainer>
             <h4>não perca tempo!</h4>
             <p>Entre em contato e receba um atendimento personalizado</p>
-            <a href="">Clique aqui</a>
+            <a href="https://api.whatsapp.com/send?phone=5548999856057" target="_blank">Clique aqui</a>
         </CallContainer>
     )
 }

@@ -185,11 +185,11 @@ export const Shape = styled(Image)`
 
 export const ShapeTwo = styled(Image)<{size: number}>`
   position: absolute;
-  width: 170px;
+  width: 120px;
   height: auto;
   left: 0px;
   top: ${props => {
-    const position = props.size - 543.11 + 'px'
+    const position = props.size - 369.36 + 'px'
     return String(position)  
   }
   };
