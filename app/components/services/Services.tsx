@@ -1,7 +1,7 @@
 "use client";
 import * as S from "./services.styles";
 import Aposentados from '@/public/services/aposentados.png'
-import Militares from '@/public/services/militares.png'
+import Militares from '@/public/services/militares2.png'
 import Servidores from '@/public/services/servidores.png'
 import Star from '@/public/services/star.svg'
 import Money from '@/public/services/money.svg'
